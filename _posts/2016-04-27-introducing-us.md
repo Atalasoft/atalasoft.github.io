@@ -1,7 +1,8 @@
 ---
 layout: post
-comments: true
 title: Introducing Dev Team
+tags: [dotimage, wingscan]
+comments: true
 ---
 
 Hi, Dmitry is here.
@@ -27,7 +28,7 @@ where you can find a fellow Atalasoft-er:
 - Irvine, CA, US
 - Saint Petersburg, Russia
 
-There are other places you can look at to gather additional information About
+There are other places you can look at to gather additional information about
 Atalasoft team:
 
  - [Atalasoft official web site](https://www.atalasoft.com)
