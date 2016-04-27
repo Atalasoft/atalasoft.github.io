@@ -24,7 +24,6 @@ where you can find a fellow Atalasoft-er:
 
 - Easthampton, MA, US
 - Irvine, CA, US
-- Sunnyvale, CA, US
 - Saint Petersburg, Russia
 
 There are other places you can look at to gather additional information About
