@@ -11,6 +11,12 @@ url:                 http://atalasoft.github.io
 baseurl:             ''
 paginate:            5
 
+pages_list:
+  Archive: '/archive'
+  Tags: '/tags'
+  About: '/about'
+  Feed: '/atom.xml'
+
 # About/contact
 author:
   name:              Atalasoft from Lexmark
