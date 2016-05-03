@@ -36,9 +36,10 @@ With NuGet infrastructure in place, creation of new imaging project is a breathe
 All you need is to download the packages you want and drop some code into the pot!
 
 We provide two flavors of each package - x86 and x64 (there are rare exceptions though -
-ISIS scanning package in x86 only, there is not x64 version). More than that,
-each package contains binaries built for .NET Framework 2.0 and .NET Framework 4.0,
-which make it possible to target virtually any .NET version you use in your project.
+[ISIS scanning package](https://www.nuget.org/packages/Atalasoft.dotImage.Isis.x86/)
+is x86 only, there is not x64 version). More than that, each package contains binaries
+built for .NET Framework 2.0 and .NET Framework 4.0, which make it possible to target
+virtually any .NET version you use in your project.
 
 It all sounds complex, but in reality you rarely need to think about this - it is
 enough to add to x86 / x64 package - NuGet and Visual Studio handle
