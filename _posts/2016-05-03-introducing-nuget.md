@@ -3,7 +3,7 @@ layout: post
 title: Introducing NuGet Packages
 tags: [dotimage, nuget]
 comments: true
-published: false
+published: true
 ---
 
 Hi, Dmitry is here.
