@@ -3,6 +3,9 @@ layout: post
 title: Introducing Activation Wizard Extension
 tags: [dotimage, nuget, extension, licensing]
 comments: true
+related: [
+    "Introducing NuGet Packages"
+]
 ---
 
 Hi, Dmitry is here.
