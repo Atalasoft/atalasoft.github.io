@@ -4,6 +4,9 @@ title: Introducing NuGet Packages
 tags: [dotimage, nuget]
 comments: true
 published: true
+related: [
+    "Introducing Activation Wizard Extension"
+]
 ---
 
 Hi, Dmitry is here.
