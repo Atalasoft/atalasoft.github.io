@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "ScriptCs support for DotImage"
-date: "2016-06-03 03:09"
+date: "2016-06-02 03:09"
 tags: [dotimage, nuget, scriptcs]
 comments: true
 related: [
