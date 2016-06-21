@@ -22,17 +22,17 @@ that the viewer provides, but we want to stick with ease of use here, right?
 
 So, let's start with empty ASP.NET project:
 
-![Create new empty ASP.NET project](/images/2016/06/nuget-tutorial-empty-project.png)
+![Create new empty ASP.NET project](/images/2016/06/nuget-tutorial-empty-project.PNG)
 
 We are going to stick with Empty ASP.NET template - we want to write some code,
 didn't we?
 
-![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-asp-project.png)
+![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-asp-project.PNG)
 
 Next step is to add a number of DotImage packages to the project. To do that,
 right-click on the project and select *Manage NuGet Packages*:
 
-![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-add-packages.png)
+![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-add-packages.PNG)
 
 For the purposes of this tutorial we need to install two packages:
 
@@ -49,10 +49,10 @@ During installation of these two packages a lot of stuff happens behind the scen
  - NuGet infrastructure downloads .NET assemblies along with all dependencies, specified in 
    package definition. All the assemblies are referenced automatically, so you don't need
    to do it explicitly:
-   ![.NET References](/images/2016/06/nuget-tutorial-references.png)
+   ![.NET References](/images/2016/06/nuget-tutorial-references.PNG)
  - Web Document Viewer is a JavaScript component that also has some dependencies on 
    other 3rd party libraries. NuGet downloads them as well and adds to the project:
-   ![.NET References](/images/2016/06/nuget-tutorial-js-resources.png)
+   ![.NET References](/images/2016/06/nuget-tutorial-js-resources.PNG)
 
 Once you have both packages installed, you are ready to add some code. The process is very 
 similar to what is described in our 
@@ -63,7 +63,7 @@ We are going to start with adding Generic Handler to the project
 (right-click on the project and select *Add -> New Item...*) Enter *WebDocViewerHandler* 
 as a name of the handler:
 
-![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-add-handler.png)
+![Select Empty ASP.NET template](/images/2016/06/nuget-tutorial-add-handler.PNG)
 
 Replace generated code with the following:
 
@@ -108,7 +108,7 @@ namespace nuget_tutorials
 The final thing we need to do on the server side, is to add some files for rendering. 
 I created *Documents* folder in my web site structure and put a PDF there:
 
-![Sample PDF Document](/images/2016/06/nuget-tutorial-sample-document.png)
+![Sample PDF Document](/images/2016/06/nuget-tutorial-sample-document.PNG)
 
 Now we have sever side ready, so we can move on and create a simple *index.html* web page 
 (right-click on the project and select *Add -> HTML Page*). Below is HTML markup you 
@@ -175,7 +175,7 @@ can use to add and initialize Web Document Viewer / Thumbnailer:
 That's it! You just need to start you web site and in a moment you will see your PDF
 file and will be able to play with it using Web Document Viewer:
 
-![Complete Application](/images/2016/06/nuget-tutorial-done.png)
+![Complete Application](/images/2016/06/nuget-tutorial-done.PNG)
 
 ## Conclusion
 The steps I described here can be completed in 5-10 minutes even if you try
