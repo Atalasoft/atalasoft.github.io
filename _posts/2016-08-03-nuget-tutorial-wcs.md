@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "NuGet Tutorial II - Web Capture Service"
-date: "2016-08-03 17:32"
+date: "2016-08-03 10:32"
 tags: [dotimage, nuget]
 comments: true
 related: [
