@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "NuGet Tutorial II - Web Capture Service"
-date: "2016-08-01 20:00"
+date: "2016-08-03 17:32"
 tags: [dotimage, nuget]
 comments: true
 related: [
@@ -25,7 +25,7 @@ From the first tutorial, we already knew how to create ASP.NET project, so, I sk
  - **[Atalasoft DotImage WebContorls](https://www.nuget.org/packages/Atalasoft.dotImage.WebControls.x86/)** - server side code that supports Web Document Viewer. 
  - **[Atalasoft Web Capture Service](https://www.nuget.org/packages/Atalasoft.Web.Capture.Service/)** - contains installation file of the WCS and JavaScript API.
 
-After installation complete, we create sampleScript.js in the Scripts folder where we write code to provide some scanning logic, and index.html to show results of scanning.
+After installation complete, we create app.js in the Scripts folder where we write code to provide some scanning logic, and index.html to show results of scanning.
 
 On the page, we place some controls: Atalasoft Web Document Viewer, two buttons, and some checkboxes for basic scan settings, like a dpi, paper size, pixel type - color or grayscale, and show or not scanner settings vendor dialog.
 
@@ -39,7 +39,7 @@ Also in the index.html we add references to the scripts and styles, and that is 
 
 </script>
 
-Now we need to write some code on JavaScript in the sampleScript.js. Let's create a simple function where we can initialize viewer and Web Capture Service with some event handlers where we will log them into the console.
+Now we need to write some code on JavaScript in the app.js. Let's create a simple function where we can initialize viewer and Web Capture Service with some event handlers where we will log them into the console.
 
 <script src="https://gist.github.com/guest512/39d758586021dabdb504377c1004d765.js">
 
@@ -87,7 +87,7 @@ WCS can upload scanned images to the server, so we simply need to add three more
 </script>
 
 The final part of the sample is to upload images to the server, by default, WebCaptureHandler uploads it to the local folder with name "atala-capture-upload." 
-Moreover, by default upload behavior is different for scan operation and import. After scan operation, all pages are combined into one big file, and it uploads to the server. 
+Moreover, by default upload behavior is different for scan operation and import. After scan operation, all pages are combined into one multipage tiff, and it uploads to the server. 
 However, for import upload by default does not happen at all. So, we need to extend our onImageAcquired event handler like this:
 
 <script src="https://gist.github.com/guest512/d67abbf6c91edbe1ec8d2f2b151ca9a2.js">
@@ -97,7 +97,7 @@ However, for import upload by default does not happen at all. So, we need to ext
 In this code, we discard image to remove it from memory (it is already saved in the local persistent store) and upload to a server as a base64 string, specifying container format, 
 and additional options like a jpeg compression quality.
 
-After all additions and edits complete version of sampleScript.js looks like this:
+After all additions and edits complete version of app.js looks like this:
 
 <script src="https://gist.github.com/guest512/e550a3b5c65371f20fc181f7d6d300ca.js">
 
