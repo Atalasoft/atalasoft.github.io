@@ -105,7 +105,7 @@ After all additions and edits complete version of app.js looks like this:
 
 So when you build your site and perform scanning you will see something like this:
 
-![Scan results](/images/2016/08/nuget-tutorial-wcs-result.PNG)
+![Scan results](/images/2016/08/nuget-tutorial-wcs-result.png)
 
 ## Conclusion
 Here a simple sample about how to work with WebCaptureService, and how it allows you to perform scan operations directly from the browser using only JavaScript.
