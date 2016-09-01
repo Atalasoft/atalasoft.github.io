@@ -94,10 +94,10 @@ As a result we see the Test.tif file opened in the Web Document Viewer:
  
  {% highlight bash %} $ bower init {% endhighlight %}
  
- This will open the dialog for bower.json file creation in interactive mode. 
+ This will open file bower.json in the current direcory or initiate its creation in interactive mode: 
  ![Bower init](/images/2016/09/14.png)
  
- After completing all fields the bower.json file will appear in the browsing directory.
+ After filling in all fields the interactive mode and confirming that it looks good the file bower.json will appear or update in the current browsing directory.
  
  * To install web-document-viewer package type the following command:
  {% highlight bash %} $ bower install --save web-document-viewer#10.7.0 {% endhighlight %}
