@@ -85,6 +85,9 @@ _thumbs.openUrl('./TestImages/Test.tif')
 As a result we see the Test.tif file opened in the Web Document Viewer:
 
 ![WDV in browser](/images/2016/09/19.png)
+
+The TestWithBower project source code is available [here](https://github.com/Atalasoft/nuget-tutorials/tree/master/TestWithBower).
+
  **Using Bower with console**
  
  The same bower package management can be done using console.
