@@ -56,7 +56,7 @@ During installation of these two packages a lot of stuff happens behind the scen
 
 Once you have both packages installed, you are ready to add some code. The process is very 
 similar to what is described in our 
-[Dev guide](http://www.atalasoft.com/docs/dotimage/docs-concept/#DotNet/Web Document Viewer/Web Document Viewer Guide.html) 
+[Dev guide](http://www.atalasoft.com/docs/dotimage/docs-concept/AtalasoftDotImageDevelopersGuide_EN.pdf#page=396) 
 - I will briefly cover it below.
 
 We are going to start with adding Generic Handler to the project 
