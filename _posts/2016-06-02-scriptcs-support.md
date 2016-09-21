@@ -14,7 +14,7 @@ It is interesting and very motivating to discover more and more features that we
 utilize after we created NuGet packages for DotImage product. It is like a good
 investment - you get more and more dividends over time :)
 
-Recently I discovered another cool area where NuGet packages are especially useful - scripting.
+Recently I discovered another cool area where NuGet packages are especially useful - scripting. <!--more-->
 
 ## The issue
 It turned out that I repeat the same routine steps over and over, almost every day
