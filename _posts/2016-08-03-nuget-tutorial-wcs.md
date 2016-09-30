@@ -13,7 +13,7 @@ related: [
 Hi, my name is Denis Legashov, and I am a software developer at Atalasoft company. 
 
 This is the second post about NuGet packages for DotImage product, 
-and today I want to tell you about [Web Capture Service (WCS)](http://www.atalasoft.com/Technical-Details/net-technical?s=18) - tiny but powerful instrument to import or scan images from the browser.
+and today I want to tell you about [Web Capture Service (WCS)](http://www.atalasoft.com/Technical-Details/net-technical?s=18) - tiny but powerful instrument to import or scan images from the browser. <!--more-->
 
 WCS is a simple application that allows you to perform scanning from the browser and uploads image on the capture server. 
 It supports different browsers. However, you do not need to install any extensions or plugins for each. 
