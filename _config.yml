@@ -1,5 +1,5 @@
 name: Atalasoft Dev Team Blog
-highlighter: true
+highlighter: rouge
 url: http://atalasoft.github.io
 paginate: 8
 description:     'Technical blog based on wisdom Atalasoft Dev Team gathered and wants to share :)'
