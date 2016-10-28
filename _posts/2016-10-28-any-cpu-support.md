@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Any CPU Support (kind of)"
-date: "2016-09-01 10:00"
+date: "2016-10-28 10:00"
 tags: [dotimage, nuget, anycpu]
 comments: true
 related: [ "Introducing NuGet Packages" ]
