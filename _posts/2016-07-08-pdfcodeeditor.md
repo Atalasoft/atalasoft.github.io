@@ -10,6 +10,8 @@ comments: true
 Hello, my name is Dmitry Goryachev and I'm a software engineer from Atalasoft. 
 Let me introduce the tool, which I created to explore and edit PDF-files – [PdfCodeEditor](https://github.com/gdv1811/PdfCodeEditor).
 
+<!--more-->
+
 ![PdfCodeEditor GUI](/images/2016/07/pdfcodeeditor-gui.png)
 
 PdfCodeEditor is the open-source simple text editor based on [AvalonEdit](http://avalonedit.net/) and [AvalonDock](https://avalondock.codeplex.com/) controls.

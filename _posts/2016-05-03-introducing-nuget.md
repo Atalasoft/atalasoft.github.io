@@ -14,7 +14,7 @@ Hi, Dmitry is here.
 Yes, you read it right. [Atalasoft DotImage NuGet packages](https://www.nuget.org/profiles/Atalasoft)
 are officially online!
 
-We worked pretty hard for about a year to deliver this update. It is the fist step
+We worked pretty hard for about a year to deliver this update. It is the fist step <!--more-->
 in our much bigger plan to refresh the product, make it more accessible to our
 customers. And - most importantly for us, developers - make it easier to update
 and "funner" to work with.

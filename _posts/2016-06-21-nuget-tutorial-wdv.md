@@ -15,6 +15,8 @@ Today I want to start a series of simple but motivating posts about [NuGet packa
 for DotImage product]({% post_url 2016-05-03-introducing-nuget %}) and how they can be useful to speed up development of imaging
 and capture-oriented applications.
 
+<!--more-->
+
 We start with [Web Document Viewer](http://www.atalasoft.com/Technical-Details/net-technical?s=2) 
 - JavaScript component that allows you to work
 with images, thumbnails, PDF Forms and annotations. There are many features

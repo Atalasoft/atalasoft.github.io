@@ -12,7 +12,7 @@ Hi, Dmitry is here.
 
 You certainly heard the [latest news]({% post_url 2016-05-03-introducing-nuget %})
 about [public NuGet packages](https://www.nuget.org/profiles/Atalasoft) we have
-just introduced for [DotImage](http://www.atalasoft.com/Products/DotImage) product.
+just introduced for [DotImage](http://www.atalasoft.com/Products/DotImage) product. <!--more-->
 While it is pretty cool by itself and I encourage you to try and play with them
 (or, wait a bit for a couple of small NuGet tutorials I have up my sleeve),
 you may have a number of questions about new deployment scheme, and licensing is

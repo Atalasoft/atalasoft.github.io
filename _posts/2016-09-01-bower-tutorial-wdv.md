@@ -11,7 +11,9 @@ related: [
 
 **Motivation**
 
-Since lately we have introduced NuGet packages for our [Web Document Viewer component](http://atalasoft.github.io/2016/06/21/nuget-tutorial-wdv/) we have worked out another scenario of separating frontend and backend development. There are special package managers to deliver frontend components only. We have looked into them and chosen [Bower](https://bower.io/). Therefore we created a new package for introducing the ability to manage our viewer as a standard frontend web component.
+Since lately we have introduced NuGet packages for our [Web Document Viewer component](http://atalasoft.github.io/2016/06/21/nuget-tutorial-wdv/) we have worked out another scenario of separating frontend and backend development. 
+<!--more-->
+There are special package managers to deliver frontend components only. We have looked into them and chosen [Bower](https://bower.io/). Therefore we created a new package for introducing the ability to manage our viewer as a standard frontend web component.
 
 **Introduction**
 
