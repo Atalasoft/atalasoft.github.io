@@ -14,7 +14,7 @@ Hi, Dmitry is here.
 Today I want to start a series of simple but motivating posts about [NuGet packages
 for DotImage product]({% post_url 2016-05-03-introducing-nuget %}) and how they can be useful to speed up development of imaging
 and capture-oriented applications.
- <!--more-->
+
 We start with [Web Document Viewer](http://www.atalasoft.com/Technical-Details/net-technical?s=2) 
 - JavaScript component that allows you to work
 with images, thumbnails, PDF Forms and annotations. There are many features
@@ -56,7 +56,7 @@ During installation of these two packages a lot of stuff happens behind the scen
 
 Once you have both packages installed, you are ready to add some code. The process is very 
 similar to what is described in our 
-[Dev guide](http://www.atalasoft.com/docs/dotimage/docs-concept/AtalasoftDotImageDevelopersGuide_EN.pdf#page=396) 
+[Dev guide](http://www.atalasoft.com/docs/dotimage/docs-concept/#DotNet/Web Document Viewer/Web Document Viewer Guide.html) 
 - I will briefly cover it below.
 
 We are going to start with adding Generic Handler to the project 

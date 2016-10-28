@@ -14,7 +14,7 @@ products:
 
  - [DotImage](https://www.atalasoft.com/Products/DotImage) - .NET imaging SDK
  - [WingScan](https://www.atalasoft.com/Products/WingScan) - Web scanning solution
- - [MobileImage](https://www.atalasoft.com/Products/MobileImage) - iOS and Android imaging SDKs      <!--more-->
+ - [MobileImage](https://www.atalasoft.com/Products/MobileImage) - iOS and Android imaging SDKs
 
 We love to create beautiful APIs and make difficult things easy and pleasant to use.
 We want to share our experience and knowledge of the product with you to hear your

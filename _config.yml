@@ -1,14 +1,21 @@
-name: Atalasoft Dev Team Blog
-highlighter: rouge
-url: http://atalasoft.github.io
-paginate: 8
-description:     'Technical blog based on wisdom Atalasoft Dev Team gathered and wants to share :)'
-descr:           'Technical blog based on wisdom <a href="https://atalasoft.com" target="_blank">Atalasoft</a> Dev Team gathered and wants to share :)' 
-intro: Atalasoft Developers Team Blog
-logo:             logo.png
-# url: http://gotchacode.com
-#Comment out url when working locally to resolve base urls correctly
-#url:
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Atalasoft Dev Team Blog
+tagline:
+description:         'Technical blog based on wisdom <a href="https://atalasoft.com" target="_blank">Atalasoft</a> Dev Team gathered and wants to share :)'
+url:                 http://atalasoft.github.io
+baseurl:             ''
+paginate:            5
+
+pages_list:
+  Archive: '/archive'
+  Tags: '/tags'
+  About: '/about'
+  Feed: '/atom.xml'
 
 # About/contact
 author:
@@ -20,31 +27,6 @@ github:
 
 # Custom vars
 version:             1.0.0
-excerpt_separator: "<!--more-->"
-pages_list:
-  Archive: '/archive'
-  Tags: '/tags'
-  About: '/about'
-  Feed: '/atom.xml'
-  
+
 gems:
   - jekyll-paginate
-  
-# Owner/author information
-owner:
-  name:           Atalasoft from Lexmark
-  avatar:         <avatar-image-link>
-  email:          <your-email-address>
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:  https://twitter.com/atalasoft
-  facebook:  https://www.facebook.com/Atalasoft/
-  linkedin: https://www.linkedin.com/company/atalasoft-from-lexmark
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
