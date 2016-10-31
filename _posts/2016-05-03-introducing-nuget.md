@@ -36,7 +36,7 @@ to accomplish:
 
 ![NuGet Package Dependencies](/assets/nuget_dependencies.png)
 
-With NuGet infrastructure in place, creation of new imaging project is a breathe.
+With NuGet infrastructure in place, creation of new imaging project is a breeze.
 All you need is to download the packages you want and drop some code into the pot!
 
 We provide two flavors of each package - x86 and x64 (there are rare exceptions though -
