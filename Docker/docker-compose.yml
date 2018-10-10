@@ -1,0 +1,11 @@
+version: "2"
+
+services: 
+  jekyll:
+    command: docker-startup.sh
+    image: atalablog
+    volumes:
+      - ..:/atalablog
+
+    ports:
+      - '5000:4000'

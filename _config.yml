@@ -19,7 +19,7 @@ pages_list:
 
 # About/contact
 author:
-  name:              Atalasoft from Lexmark
+  name:              Atalasoft from Kofax
   url:               https://twitter.com/atalasoft
 
 github:
@@ -29,5 +29,7 @@ github:
 version:             1.0.0
 excerpt_separator: "<!--more-->"
 
-gems:
+plugins:
   - jekyll-paginate
+
+exclude: ['Docker', '*.sh', '*.cmd']
