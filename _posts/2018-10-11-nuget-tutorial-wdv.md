@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "NuGet Tutorial - Web Document Viewer (2018)"
-date: "2018-10-09 00:00"
+date: "2018-10-11 00:00"
 tags: [dotimage, nuget, scriptcs]
 comments: true
 related: [
@@ -17,7 +17,7 @@ This blog entry is an update to our previous article [NuGet Tutorial I - Web Doc
 
 I assume that you have heard about [Web Document Viewer](http://www.atalasoft.com/Technical-Details/net-technical?s=2) (WDV) already and look forward for how to use it!
 
-Here and next I will use VS2017 (15.8.6), so the interface will be quite different from what we used in previous article. And the target framework for the application will be .NET 4.5.2 which is the same as we targets with DotImage assemblies. However you can use any other framework that is more preferable for you
+Here and next I will use VS2017 (15.8.6), so the user interface will be quite different from what we used in original article. And the target framework for the application will be .NET 4.5.2 which is the same as we targets with DotImage assemblies. However you can use any other framework that is more preferable for you.
 
 So, let's start with empty ASP.NET project:
 
@@ -91,9 +91,4 @@ file and will be able to play with it using Web Document Viewer:
 ![Complete Application](/images/2018/10/nuget-tutorial-done.PNG)
 
 ## Conclusion
-The steps I described here can be completed in 5-10 minutes even if you try
-to use Atalasoft toolkit for the first time. But you can achieve the same result even faster 
-if you clone ready-to-go project from GitHub repository we created to hold 
-our tutorial projects - all you need to do is to open the project in Visual Studio
-and run it - all necessary NuGet packages will be downloaded automatically
-during the build. 
+The steps I described here can be completed in 5-10 minutes even if you try to use Atalasoft toolkit for the first time. But you can achieve the same result even faster if you clone ready-to-go project from GitHub repository we created to hold our tutorial projects - all you need to do is to open the project in Visual Studio and run it - all necessary NuGet packages will be downloaded automatically during the build. 
