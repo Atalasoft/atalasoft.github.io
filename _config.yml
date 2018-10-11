@@ -32,4 +32,4 @@ excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-paginate
 
-exclude: ['Docker', '*.sh', '*.cmd']
+exclude: ['Docker', '*.sh', '*.cmd', 'INSTRUCTIONS.md']

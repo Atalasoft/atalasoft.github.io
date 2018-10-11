@@ -36,6 +36,6 @@ Atalasoft team:
  - [Atalasoft official web site](https://www.atalasoft.com)
  - [Atalasot Twitter account](https://twitter.com/atalasoft)
  - [Atalasoft on Facebook](https://www.facebook.com/Atalasoft)
- - [Atalasoft on LinkedId](https://www.linkedin.com/company/atalasoft-from-lexmark)
+ - [Atalasoft on LinkedId](https://www.linkedin.com/company/atalasoft-a-kofax-company)
 
 Stay tuned - we will be back sooner than you think!
