@@ -21,16 +21,16 @@ Here and next I will use VS2017 (15.8.6), so the user interface will be quite di
 
 So, let's start with empty ASP.NET project:
 
-![Create new empty ASP.NET project](/images/2018/10/nuget-tutorial-empty-project.PNG)
+![Create new empty ASP.NET project](/images/2018/10/nuget-tutorial-empty-project.png)
 
 We are going to use Empty ASP.NET template - because we want to see  what exactly should we write to use WDV in our project.
 
-![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-empty-asp-project.PNG)
+![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-empty-asp-project.png)
 
 Next step is to add DotImage packages to the project. To do that,
 right-click on the project and select *Manage NuGet Packages*:
 
-![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-add-packages.PNG)
+![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-add-packages.png)
 
 For the purposes of this tutorial we need to install two packages:
 
@@ -49,10 +49,10 @@ During installation of these two packages a lot of stuff happens behind the scen
  - NuGet infrastructure downloads .NET assemblies along with all dependencies, specified in 
    package definition. All the assemblies are referenced automatically, so you don't need
    to do it explicitly:
-   ![.NET References](/images/2018/10/nuget-tutorial-references.PNG)
+   ![.NET References](/images/2018/10/nuget-tutorial-references.png)
  - Web Document Viewer is a JavaScript component that also has some dependencies on 
    other 3rd party libraries. NuGet downloads them as well and adds to the project:
-   ![.NET References](/images/2018/10/nuget-tutorial-js-resources.PNG)
+   ![.NET References](/images/2018/10/nuget-tutorial-js-resources.png)
 
 Once you have both packages installed, you are ready to add some code. The process is very 
 similar to what is described in our [Dev guide](https://atalasoft.github.io/web-document-viewer/tutorial-demo-application.html) - I will briefly cover it below.
@@ -61,7 +61,7 @@ We are going to start with adding Generic Handler to the project
 (right-click on the project and select *Add -> New Item...*) Enter *WebDocViewerHandler* 
 as a name of the handler:
 
-![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-add-handler.PNG)
+![Select Empty ASP.NET template](/images/2018/10/nuget-tutorial-add-handler.png)
 
 Replace generated code with the following:
 
@@ -77,7 +77,7 @@ way to achieve this is to add *Global.asax* file with the following content:
 The final thing we need to do on the server side, is to add some files for rendering. 
 I created *Documents* folder in my web site structure and put a PDF there:
 
-![Sample PDF Document](/images/2018/10/nuget-tutorial-sample-document.PNG)
+![Sample PDF Document](/images/2018/10/nuget-tutorial-sample-document.png)
 
 Now we have sever side ready, so we can move on and create a simple *index.html* web page 
 (right-click on the project and select *Add -> HTML Page*). Below is HTML markup you 
@@ -88,7 +88,7 @@ can use to add and initialize Web Document Viewer / Thumbnailer:
 That's it! You just need to start you web site and in a moment you will see your PDF
 file and will be able to play with it using Web Document Viewer:
 
-![Complete Application](/images/2018/10/nuget-tutorial-done.PNG)
+![Complete Application](/images/2018/10/nuget-tutorial-done.png)
 
 ## Conclusion
 The steps I described here can be completed in 5-10 minutes even if you try to use Atalasoft toolkit for the first time. But you can achieve the same result even faster if you clone ready-to-go project from GitHub repository we created to hold our tutorial projects - all you need to do is to open the project in Visual Studio and run it - all necessary NuGet packages will be downloaded automatically during the build. 
