@@ -10,6 +10,6 @@ You can reach us in a number of different ways, here are few of them:
 
  - [@atalasoft](https://twitter.com/atalasoft) Twitter account
  - [Atalasoft](https://www.facebook.com/Atalasoft/) page on Facebook
- - [Atalasoft](https://www.linkedin.com/company/atalasoft-from-lexmark) on LinkedIn
+ - [Atalasoft](https://www.linkedin.com/company/atalasoft-a-kofax-company) on LinkedIn
 
 Good to hear from you! Don't shy to contact us and say what you think.
